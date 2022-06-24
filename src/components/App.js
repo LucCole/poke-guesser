@@ -1,14 +1,57 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import { Route, Routes } from "react-router-dom";
 
-import Test from './Test';
+import Input from './Input';
+import PokemonList from './PokemonList';
 
 function App() {
+
+  const [pokemon, setPokemon] = useState([
+    {
+      name: 'bulbasaur',
+      found: false
+    },
+    {
+      name: 'ivysaur',
+      found: false
+    },
+    {
+      name: 'venusaur',
+      found: false
+    },
+    {
+      name: 'charmander',
+      found: false
+    },
+    {
+      name: 'charmeleon',
+      found: false
+    },
+    {
+      name: 'charizard',
+      found: false
+    },
+    {
+      name: 'squirtle',
+      found: false
+    },
+    {
+      name: 'wartortle',
+      found: false
+    },
+    {
+      name: 'blastoise',
+      found: false
+    },
+  ]);
   
   return <>
     <Routes>
       <Route path="/" element={
-        <Test text="helooooo"></Test>
+        <>
+          <Input pokemon={pokemon} setPokemon={setPokemon}/>
+          <PokemonList pokemon={pokemon}/>
+        </>
       } />
     </Routes>
   </>

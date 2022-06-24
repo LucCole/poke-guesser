@@ -1,0 +1,20 @@
+.correctGuesses{
+  color: lightgreen;
+}
+
+.incorrectGuesses{
+  color: lightcoral;
+}
+
+.pokemonList{
+  display: flex;
+  flex-direction: column;
+}
+
+.guessed{
+  color: white;
+}
+
+.notGuessed{
+  color: rgba(0, 0, 0, 0);
+}
