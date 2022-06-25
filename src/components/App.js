@@ -9,39 +9,48 @@ function App() {
   const [pokemon, setPokemon] = useState([
     {
       name: 'bulbasaur',
-      found: false
+      found: false,
+      id: 1
     },
     {
       name: 'ivysaur',
-      found: false
+      found: false,
+      id: 2
     },
     {
       name: 'venusaur',
-      found: false
+      found: false,
+      id: 3
     },
     {
       name: 'charmander',
-      found: false
+      found: false,
+      id: 4
     },
     {
       name: 'charmeleon',
-      found: false
+      found: false,
+      id: 5
     },
     {
       name: 'charizard',
-      found: false
+      found: false,
+      id: 6
     },
     {
       name: 'squirtle',
-      found: false
+      found: false,
+      id: 7
     },
     {
       name: 'wartortle',
-      found: false
+      found: false,
+      id: 8
     },
     {
       name: 'blastoise',
-      found: false
+      found: false,
+      id: 9
     },
   ]);
   
