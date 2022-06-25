@@ -6,15 +6,48 @@
   color: lightcoral;
 }
 
-.pokemonList{
-  display: flex;
-  flex-direction: column;
-}
-
 .guessed{
   color: white;
 }
 
 .notGuessed{
   color: rgba(0, 0, 0, 0);
+}
+
+.input{
+  padding: 1em 1em 3em 1em;
+}
+
+.pokemonList{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1em;
+  flex-wrap: wrap;
+  row-gap: 0.5em;
+  width: 100vw;
+  justify-content: center;
+  margin-bottom: 20vh;
+}
+
+.pokemon{
+  display: flex;
+  flex: 0 10%;
+  font-size: 0.7em;
+  border-bottom: 2px solid red;
+  align-items: center;
+  border-radius: 0 0 0 2px;
+}
+
+.pokemon div{
+  background-color: red;
+  padding: 0.3em;
+  border-radius: 2px 2px 0 0;
+  width: 1.65em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pokemon span{
+  margin-left: 0.3em;
 }

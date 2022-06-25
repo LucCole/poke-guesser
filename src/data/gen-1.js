@@ -1,761 +1,760 @@
 
 const gen1 = [
   {
-    name: 'bulbasaur',
+    name: 'Bulbasaur',
     found: true,
     id: 1
   },
   {
-    name: 'ivysaur',
+    name: 'Ivysaur',
     found: true,
     id: 2
   },
   {
-    name: 'venusaur',
+    name: 'Venusaur',
     found: true,
     id: 3
   },
   {
-    name: 'charmander',
+    name: 'Charmander',
     found: true,
     id: 4
   },
   {
-    name: 'charmeleon',
+    name: 'Charmeleon',
     found: true,
     id: 5
   },
   {
-    name: 'charizard',
+    name: 'Charizard',
     found: true,
     id: 6
   },
   {
-    name: 'squirtle',
+    name: 'Squirtle',
     found: true,
     id: 7
   },
   {
-    name: 'wartortle',
+    name: 'Wartortle',
     found: true,
     id: 8
   },
   {
-    name: 'blastoise',
+    name: 'Blastoise',
     found: true,
     id: 9
   },
   {
-    name: 'caterpie',
+    name: 'Caterpie',
     found: true,
     id: 10
   },
-
-
-
-
-
-
-
-
   {
-    name: 'bulbasaur',
+    name: 'Metapod',
     found: true,
     id: 11
   },
   {
-    name: 'ivysaur',
+    name: 'Butterfree',
     found: true,
     id: 12
   },
   {
-    name: 'venusaur',
+    name: 'Weedle',
     found: true,
     id: 13
   },
   {
-    name: 'charmander',
+    name: 'Kakuna',
     found: true,
     id: 14
   },
   {
-    name: 'charmeleon',
+    name: 'Beedrill',
     found: true,
     id: 15
   },
   {
-    name: 'charizard',
+    name: 'Pidgey',
     found: true,
     id: 16
   },
   {
-    name: 'squirtle',
+    name: 'Pidgeotto',
     found: true,
     id: 17
   },
   {
-    name: 'wartortle',
+    name: 'Pidgeot',
     found: true,
     id: 18
   },
   {
-    name: 'blastoise',
+    name: 'Rattata',
     found: true,
     id: 19
   },
   {
-    name: 'caterpie',
+    name: 'Raticate',
     found: true,
     id: 20
   },
   {
-    name: 'bulbasaur',
+    name: 'Spearow',
     found: true,
     id: 21
   },
   {
-    name: 'ivysaur',
+    name: 'Fearow',
     found: true,
     id: 22
   },
   {
-    name: 'venusaur',
+    name: 'Ekans',
     found: true,
     id: 23
   },
   {
-    name: 'charmander',
+    name: 'Arbok',
     found: true,
     id: 24
   },
   {
-    name: 'charmeleon',
+    name: 'Pikachu',
     found: true,
     id: 25
   },
   {
-    name: 'charizard',
+    name: 'Raichu',
     found: true,
     id: 26
   },
   {
-    name: 'squirtle',
+    name: 'Sandshrew',
     found: true,
     id: 27
   },
   {
-    name: 'wartortle',
+    name: 'Sandslash',
     found: true,
     id: 28
   },
   {
-    name: 'blastoise',
+    name: 'Nidoran',
     found: true,
     id: 29
   },
   {
-    name: 'caterpie',
+    name: 'Nidorina',
     found: true,
     id: 30
   },
   {
-    name: 'bulbasaur',
+    name: 'Nidoqueen',
     found: true,
     id: 31
   },
   {
-    name: 'ivysaur',
+    name: 'Nidoran',
     found: true,
     id: 32
   },
   {
-    name: 'venusaur',
+    name: 'Nidorino',
     found: true,
     id: 33
   },
   {
-    name: 'charmander',
+    name: 'Nidoking',
     found: true,
     id: 34
   },
   {
-    name: 'charmeleon',
+    name: 'Clefairy',
     found: true,
     id: 35
   },
   {
-    name: 'charizard',
+    name: 'Clefable',
     found: true,
     id: 36
   },
   {
-    name: 'squirtle',
+    name: 'Vulpix',
     found: true,
     id: 37
   },
   {
-    name: 'wartortle',
+    name: 'Ninetales',
     found: true,
     id: 38
   },
   {
-    name: 'blastoise',
+    name: 'Jigglypuff',
     found: true,
     id: 39
   },
   {
-    name: 'caterpie',
+    name: 'Wigglytuff',
     found: true,
     id: 40
   },
   {
-    name: 'bulbasaur',
+    name: 'Zubat',
     found: true,
     id: 41
   },
   {
-    name: 'ivysaur',
+    name: 'Golbat',
     found: true,
     id: 42
   },
   {
-    name: 'venusaur',
+    name: 'Oddish',
     found: true,
     id: 43
   },
   {
-    name: 'charmander',
+    name: 'Gloom',
     found: true,
     id: 44
   },
   {
-    name: 'charmeleon',
+    name: 'Vileplume',
     found: true,
     id: 45
   },
   {
-    name: 'charizard',
+    name: 'Paras',
     found: true,
     id: 46
   },
   {
-    name: 'squirtle',
+    name: 'Parasect',
     found: true,
     id: 47
   },
   {
-    name: 'wartortle',
+    name: 'Venonat',
     found: true,
     id: 48
   },
   {
-    name: 'blastoise',
+    name: 'Venomoth',
     found: true,
     id: 49
   },
   {
-    name: 'caterpie',
+    name: 'Diglett',
     found: true,
     id: 50
   },
   {
-    name: 'bulbasaur',
+    name: 'Dugtrio',
     found: true,
     id: 51
   },
   {
-    name: 'ivysaur',
+    name: 'Meowth',
     found: true,
     id: 52
   },
   {
-    name: 'venusaur',
+    name: 'Persian',
     found: true,
     id: 53
   },
   {
-    name: 'charmander',
+    name: 'Psyduck',
     found: true,
     id: 54
   },
   {
-    name: 'charmeleon',
+    name: 'Golduck',
     found: true,
     id: 55
   },
   {
-    name: 'charizard',
+    name: 'Mankey',
     found: true,
     id: 56
   },
   {
-    name: 'squirtle',
+    name: 'Primeape',
     found: true,
     id: 57
   },
   {
-    name: 'wartortle',
+    name: 'Growlithe',
     found: true,
     id: 58
   },
   {
-    name: 'blastoise',
+    name: 'Arcanine',
     found: true,
     id: 59
   },
   {
-    name: 'caterpie',
+    name: 'Poliwag',
     found: true,
     id: 60
   },
   {
-    name: 'bulbasaur',
+    name: 'Poliwhirl',
     found: true,
     id: 61
   },
   {
-    name: 'ivysaur',
+    name: 'Poliwrath',
     found: true,
     id: 62
   },
   {
-    name: 'venusaur',
+    name: 'Abra',
     found: true,
     id: 63
   },
   {
-    name: 'charmander',
+    name: 'Kadabra',
     found: true,
     id: 64
   },
   {
-    name: 'charmeleon',
+    name: 'Alakazam',
     found: true,
     id: 65
   },
   {
-    name: 'charizard',
+    name: 'Machop',
     found: true,
     id: 66
   },
   {
-    name: 'squirtle',
+    name: 'Machoke',
     found: true,
     id: 67
   },
   {
-    name: 'wartortle',
+    name: 'Machamp',
     found: true,
     id: 68
   },
   {
-    name: 'blastoise',
+    name: 'Bellsprout',
     found: true,
     id: 69
   },
   {
-    name: 'caterpie',
+    name: 'Weepinbell',
     found: true,
     id: 70
   },
   {
-    name: 'bulbasaur',
+    name: 'Victreebel',
     found: true,
     id: 71
   },
   {
-    name: 'ivysaur',
+    name: '	Tentacool',
     found: true,
     id: 72
   },
   {
-    name: 'venusaur',
+    name: 'Tentacruel',
     found: true,
     id: 73
   },
   {
-    name: 'charmander',
+    name: 'Geodude',
     found: true,
     id: 74
   },
   {
-    name: 'charmeleon',
+    name: 'Graveler',
     found: true,
     id: 75
   },
   {
-    name: 'charizard',
+    name: 'Golem',
     found: true,
     id: 76
   },
   {
-    name: 'squirtle',
+    name: 'Ponyta',
     found: true,
     id: 77
   },
   {
-    name: 'wartortle',
+    name: 'Rapidash',
     found: true,
     id: 78
   },
   {
-    name: 'blastoise',
+    name: 'Slowpoke',
     found: true,
     id: 79
   },
   {
-    name: 'caterpie',
+    name: 'Slowbro',
     found: true,
     id: 80
   },
   {
-    name: 'bulbasaur',
+    name: 'Magnemite',
     found: true,
     id: 81
   },
   {
-    name: 'ivysaur',
+    name: 'Magneton',
     found: true,
     id: 82
   },
   {
-    name: 'venusaur',
+    name: `Farfetch'd`,
     found: true,
     id: 83
   },
   {
-    name: 'charmander',
+    name: 'Doduo',
     found: true,
     id: 84
   },
   {
-    name: 'charmeleon',
+    name: 'Dodrio',
     found: true,
     id: 85
   },
   {
-    name: 'charizard',
+    name: 'Seel',
     found: true,
     id: 86
   },
   {
-    name: 'squirtle',
+    name: 'Dewgong',
     found: true,
     id: 87
   },
   {
-    name: 'wartortle',
+    name: 'Grimer',
     found: true,
     id: 88
   },
   {
-    name: 'blastoise',
+    name: 'Muk',
     found: true,
     id: 89
   },
   {
-    name: 'caterpie',
+    name: 'Shellder',
     found: true,
     id: 90
   },
   {
-    name: 'bulbasaur',
+    name: 'Cloyster',
     found: true,
     id: 91
   },
   {
-    name: 'ivysaur',
+    name: 'Gastly',
     found: true,
     id: 92
   },
   {
-    name: 'venusaur',
+    name: 'Haunter',
     found: true,
     id: 93
   },
   {
-    name: 'charmander',
+    name: 'Gengar',
     found: true,
     id: 94
   },
   {
-    name: 'charmeleon',
+    name: 'Onix',
     found: true,
     id: 95
   },
   {
-    name: 'charizard',
+    name: 'Drowzee',
     found: true,
     id: 96
   },
   {
-    name: 'squirtle',
+    name: 'Hypno',
     found: true,
     id: 97
   },
   {
-    name: 'wartortle',
+    name: 'Krabby',
     found: true,
     id: 98
   },
   {
-    name: 'blastoise',
+    name: 'Kingler',
     found: true,
     id: 99
   },
   {
-    name: 'caterpie',
+    name: 'Voltorb',
     found: true,
     id: 100
   },
   {
-    name: 'bulbasaur',
+    name: 'Electrode',
     found: true,
     id: 101
   },
   {
-    name: 'ivysaur',
+    name: 'Exeggcute',
     found: true,
     id: 102
   },
   {
-    name: 'venusaur',
+    name: 'Exeggutor',
     found: true,
     id: 103
   },
   {
-    name: 'charmander',
+    name: 'Cubone',
     found: true,
     id: 104
   },
   {
-    name: 'charmeleon',
+    name: 'Marowak',
     found: true,
     id: 105
   },
   {
-    name: 'charizard',
+    name: 'Hitmonlee',
     found: true,
     id: 106
   },
   {
-    name: 'squirtle',
+    name: 'Hitmonchan',
     found: true,
     id: 107
   },
   {
-    name: 'wartortle',
+    name: 'Lickitung',
     found: true,
     id: 108
   },
   {
-    name: 'blastoise',
+    name: 'Koffing',
     found: true,
     id: 109
   },
   {
-    name: 'caterpie',
+    name: 'Weezing',
     found: true,
     id: 110
   },
   {
-    name: 'bulbasaur',
+    name: 'Rhyhorn',
     found: true,
     id: 111
   },
   {
-    name: 'ivysaur',
+    name: 'Rhydon',
     found: true,
     id: 112
   },
   {
-    name: 'venusaur',
+    name: 'Chansey',
     found: true,
     id: 113
   },
   {
-    name: 'charmander',
+    name: 'Tangela',
     found: true,
     id: 114
   },
   {
-    name: 'charmeleon',
+    name: 'Kangaskhan',
     found: true,
     id: 115
   },
   {
-    name: 'charizard',
+    name: 'Horsea',
     found: true,
     id: 116
   },
   {
-    name: 'squirtle',
+    name: 'Seadra',
     found: true,
     id: 117
   },
   {
-    name: 'wartortle',
+    name: 'Goldeen',
     found: true,
     id: 118
   },
   {
-    name: 'blastoise',
+    name: 'Seaking',
     found: true,
     id: 119
   },
   {
-    name: 'caterpie',
+    name: 'Staryu',
     found: true,
     id: 120
   },
   {
-    name: 'bulbasaur',
+    name: 'Starmie',
     found: true,
     id: 121
   },
   {
-    name: 'ivysaur',
+    name: 'Mr. Mime',
     found: true,
     id: 122
   },
   {
-    name: 'venusaur',
+    name: 'Scyther',
     found: true,
     id: 123
   },
   {
-    name: 'charmander',
+    name: 'Jynx',
     found: true,
     id: 124
   },
   {
-    name: 'charmeleon',
+    name: 'Electabuzz',
     found: true,
     id: 125
   },
   {
-    name: 'charizard',
+    name: 'Magmar',
     found: true,
     id: 126
   },
   {
-    name: 'squirtle',
+    name: 'Pinsir',
     found: true,
     id: 127
   },
   {
-    name: 'wartortle',
+    name: 'Tauros',
     found: true,
     id: 128
   },
   {
-    name: 'blastoise',
+    name: 'Magikarp',
     found: true,
     id: 129
   },
   {
-    name: 'caterpie',
+    name: 'Gyarados',
     found: true,
     id: 130
   },
   {
-    name: 'bulbasaur',
+    name: 'Lapras',
     found: true,
     id: 131
   },
   {
-    name: 'ivysaur',
+    name: 'Ditto',
     found: true,
     id: 132
   },
   {
-    name: 'venusaur',
+    name: 'Eevee',
     found: true,
     id: 133
   },
   {
-    name: 'charmander',
+    name: 'Vaporeon',
     found: true,
     id: 134
   },
   {
-    name: 'charmeleon',
+    name: 'Jolteon',
     found: true,
     id: 135
   },
   {
-    name: 'charizard',
+    name: 'Flareon',
     found: true,
     id: 136
   },
   {
-    name: 'squirtle',
+    name: 'Porygon',
     found: true,
     id: 137
   },
   {
-    name: 'wartortle',
+    name: 'Omanyte',
     found: true,
     id: 138
   },
   {
-    name: 'blastoise',
+    name: 'Omastar',
     found: true,
     id: 139
   },
   {
-    name: 'caterpie',
+    name: 'Kabuto',
     found: true,
     id: 140
   },
   {
-    name: 'bulbasaur',
+    name: 'Kabutops',
     found: true,
     id: 141
   },
   {
-    name: 'ivysaur',
+    name: 'Aerodactyl',
     found: true,
     id: 142
   },
   {
-    name: 'venusaur',
+    name: 'Snorlax',
     found: true,
     id: 143
   },
   {
-    name: 'charmander',
+    name: 'Articuno',
     found: true,
     id: 144
   },
   {
-    name: 'charmeleon',
+    name: 'Zapdos',
     found: true,
     id: 145
   },
   {
-    name: 'charizard',
+    name: 'Moltres',
     found: true,
     id: 146
   },
   {
-    name: 'squirtle',
+    name: 'Dratini',
     found: true,
     id: 147
   },
   {
-    name: 'wartortle',
+    name: 'Dragonair',
     found: true,
     id: 148
   },
   {
-    name: 'blastoise',
+    name: 'Dragonite',
     found: true,
     id: 149
   },
   {
-    name: 'caterpie',
+    name: 'Mewtwo',
     found: true,
     id: 150
+  },
+  {
+    name: 'Mew',
+    found: true,
+    id: 151
   }
 ];
+
+export default gen1;

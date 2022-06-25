@@ -43,7 +43,9 @@ const Input = ({pokemon, setPokemon, timeLimit}) => {
     }
   }
 
-  return <>
+  return (
+  <div className="input">
+
     <input
       type="text"
       placeholder="Pokemon Name"
@@ -51,20 +53,25 @@ const Input = ({pokemon, setPokemon, timeLimit}) => {
       onChange={(event) => setText(event.target.value)}
       disabled={isDisabled}
     ></input>
+
     <button onClick={() => guessCheck(text)} disabled={isDisabled}>Guess</button>
+
     <span>
       <span className="correctGuesses">{correctGuesses}</span>
       /
       <span className="incorrectGuesses">{incorrectGuesses}</span>
     </span>
+
     <div>
       <h1>{count} seconds left</h1>
       <button onClick={handleClick}>
         {intervalId ? "Stop counting" : "Start counting"}
       </button>
     </div>
+    
     <span>{timesUp}</span>
-  </>
+  </div>
+  )
 }
 
 export default Input;
