@@ -2,6 +2,7 @@ import React, { useState }  from 'react';
 import { Route, Routes } from "react-router-dom";
 
 import Input from './Input';
+import Counter from './Counter';
 import PokemonList from './PokemonList';
 
 function App() {
@@ -9,17 +10,17 @@ function App() {
   const [pokemon, setPokemon] = useState([
     {
       name: 'bulbasaur',
-      found: false,
+      found: true,
       id: 1
     },
     {
       name: 'ivysaur',
-      found: false,
+      found: true,
       id: 2
     },
     {
       name: 'venusaur',
-      found: false,
+      found: true,
       id: 3
     },
     {
@@ -58,10 +59,13 @@ function App() {
     <Routes>
       <Route path="/" element={
         <>
-          <Input pokemon={pokemon} setPokemon={setPokemon}/>
+          {/* <Input pokemon={pokemon} setPokemon={setPokemon} timeLimit={20}/> */}
           <PokemonList pokemon={pokemon}/>
         </>
       } />
+
+      {/* Test */}
+      <Route path="/counter" element={<Counter/>} />
     </Routes>
   </>
 }
